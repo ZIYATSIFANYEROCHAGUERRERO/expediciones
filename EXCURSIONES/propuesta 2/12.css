@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+	
+
+section{
+	background-color: #4d062d;
+	font-size:20px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+    article{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+        legend{
+            text-align: left;
+            font-weight: bold;
+            font-size: 22px;
+            margin-left: 20px;
+            color: #f9feff;
+        }
+
+        #receptor, #cuerpo{
+            margin: 20px auto;
+        }
+
+        input{
+            width: 250px;
+            height: 40px;
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        button{
+            width: 150px;
+            height: 35px;
+            border-radius: 20px;
+            background-color: #076b66;
+            color: #fff;
+            font-size: 16px;
+            display: block;
+            margin: 10px auto;
+        }
+
+        button:active{
+            background-color: #fff;
+            color: #1bb428;
+        }
+
+footer{
+    background-color: #204956;
+}
+
+
+/*-------------------------------------------------------------------------*/
+    /*  Receptor */
+        .datos-receptor{
+            margin: 15px 0px 15px 30px;
+        }
+
+        #titulo-conceptos{
+            margin: 0 auto;
+            width: 300px;
+            text-align: center;
+        }
+
+        .titulo-conceptos{
+            display: block;
+        }
+
+        .quitar-titulo-conceptos{
+            display: none;
+        }
+
+        #titulo-conceptos > input{
+            width: 70px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+      
+    /* Conceptos */
+
+    #conceptos label{
+        display: inline-block;
+        text-align: left;
+        padding: 10px 20px;
+    }
+
+    #conceptos input{
+        display: block;
+    }
+
+    #cuerpo input[type="number"]{
+        text-align: right;
+        width: 150px;
+    }
+    
+    #descripcion{
+        width:400px;
+    }
+
+    .agregar{
+        margin: 10px;
+        margin-left: auto;
+        display: none;
+    }
+
+    .mostrar-agregar{
+        display: block;
+    }
+    .ticket{
+        margin: 10px;
+        margin-left: auto;
+        display: none;
+    }
+    .mostrar-ticket{
+        background-color:Yellow;
+        display: block;
+        color:black;
+    }
+
+
+    /*Totales */
+
+    #totales{
+        width: 250px;
+        margin-left: auto;
+        padding: 0px 10px 10px;
+    }
+
+    table, th, td{
+        border-bottom: 1px solid #cfdbdf;
+        border-collapse: collapse;
+        text-align: right;
+        padding-top: 10px;
+    }
+
+    td{
+        width: 150px;
+    }
